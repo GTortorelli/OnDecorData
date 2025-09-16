@@ -1,0 +1,67 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+nb_html/
+nb_pdf/
+
+# Data files (often large and frequently changing)
+data/
+raw_data/
+processed_data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.hdf5
+*.pkl
+*.npy
+*.npz
+*.sqlite
+*.db
+
+# Model files (can be large)
+models/
+*.h5
+*.keras
+*.onnx
+*.pt
+*.pth
+*.joblib
+*.pickle
+
+# Output files
+results/
+output/
+figures/
+plots/
+*.log
+*.tmp
+*.bak
+
+# Environment variables and credentials
+.env
+*.env
+config.ini
+credentials.json
+
+# IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# DVC (Data Version Control) specific files (if using DVC)
+.dvc/
+dvc.lock
