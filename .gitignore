@@ -16,20 +16,6 @@ env/
 nb_html/
 nb_pdf/
 
-# Data files (often large and frequently changing)
-data/
-raw_data/
-processed_data/
-*.csv
-*.tsv
-*.parquet
-*.feather
-*.hdf5
-*.pkl
-*.npy
-*.npz
-*.sqlite
-*.db
 
 # Model files (can be large)
 models/
